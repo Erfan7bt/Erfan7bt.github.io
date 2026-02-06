@@ -1,79 +1,19 @@
-/* styles.css */
-
-/* Global styles */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #03254c; /* Background color for dark mode */
-  color: #fff; /* Text color for dark mode */
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
 }
-
-/* Header */
-header {
-  background-color: #03254c; /* Header background color for dark mode */
-  padding: 20px;
+header.hero {
+    padding: 100px 20px;
+    background: #f8f9fa;
 }
-
-header h1 {
-  margin: 0;
-}
-
-/* Navigation */
-nav {
-  background-color: #2a3b4b; /* Navigation background color for dark mode */
-  padding: 10px;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 10px;
-}
-
-nav ul li a {
-  color: #d0efff; /* Navigation link color for dark mode */
-  text-decoration: none;
-}
-
-/* Sections */
 section {
-  padding: 20px;
+    padding: 60px 20px;
 }
-
-section h2 {
-  margin-top: 0;
+h2 {
+    margin-bottom: 20px;
 }
-
-/* Placeholder for Picture */
-.picture-placeholder {
-  background-color: #2a3b4b; /* Background color for the placeholder in dark mode */
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-  color: #d0efff; /* Placeholder icon color in dark mode */
-  overflow: hidden; /* Hide any overflowing content */
-}
-
-/* Adjust the size of the image */
-.picture-placeholder img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-/* Footer */
 footer {
-  background-color: #03254c; /* Footer background color for dark mode */
-  padding: 10px;
-  text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
 }
